@@ -1,83 +1,167 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
-	<title>Portfolio HTML</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio HTML</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="titulo">DEV Rafael</h1>
+      <nav class="menu">
+        <ul class="listaLinks">
+          <li class="itemNav">
+            <a class="linkNav" href="./index.html">Home</a>
+          </li>
+          <li class="itemNav">
+            <a class="linkNav" href="./projetos.html">Projetos</a>
+          </li>
+          <li class="itemNav">
+            <a class="linkNav" href="./experiencia.html">Experiência</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-	<header>
-		<h1 class = "titulo">DEV Rafael</h1>
-		<nav class = "menu">
-			<ul class ="listaLinks">
-				<li class = "itemNav"><a class = linkNav href="./index.html">Home</a></li>
-				<li class = "itemNav"><a class = linkNav href="./projetos.html">Projetos</a></li>
-				<li class = "itemNav"><a class = linkNav href="./experiencia.html">Experiência</a></li>
-			</ul>
-		</nav>
-	</header>
+    <main>
+      <div class="projetosRafa">
+        <ul class="listaProjetos">
+          <li class="projeto">
+            <h3 class="tituloProjeto">Site portfolio</h3>
+            <div class="containerImagem">
+              <img
+                class="imagemItem"
+                src="./assets/sitePortfolio.png"
+                alt="portfolio"
+              />
+            </div>
+            <div class="containerTexto">
+              <p class="textoItem">
+                Primeiro projeto de 2023, feito no final de janeiro. <br />Um
+                site feito em HTML e CSS com a finalidade de ser um curriculum
+                virtual.
+              </p>
+              <div class="containerSeparacao"><p class="separacao">----</p></div>
+              <p class="textoItem ingles">
+                First project of 2023, made at the end of January. <br />A
+                site made in HTML and CSS for the sole purpose of being a virtual curriculum.
+              </p>
+            </div>
+            <button class="linkProjeto">
+              <a
+                class="textoBotao"
+                href="https://github.com/RafasHub/portfolioSite"
+                >Visite o Projeto!</a
+              >
+            </button>
+          </li>
+          <li class="projeto">
+            <h3 class="tituloProjeto">Clone Netflix</h3>
+            <div class="containerImagem">
+              <img
+                class="imagemItem"
+                src="./assets/netflix.png"
+                alt="netflix"
+              />
+            </div>
+            <div class="containerTexto">
+              <p class="textoItem">
+                Outro clone em HTML e CSS feito por inspiração em sugestões
+                recebidas no final de 2022.<br />
+                Este não tem segredo, é uma imitação da página de login da
+                Netflix.
+              </p>
+              <div class="containerSeparacao"><p class="separacao">----</p></div>
+              <p class="textoItem ingles">
+                Another HTML and CSS clone made by inspiration in suggestions
+                received at the end of 2022.<br />
+                This has no secret, it is an imitation of the Netflix login page.
+              </p>
+            </div>
+            <button class="linkProjeto">
+              <a
+                class="textoBotao"
+                href="https://github.com/RafasHub/cloneNetflix"
+                >Visite o Projeto!</a
+              >
+            </button>
+          </li>
+          <li class="projeto">
+            <h3 class="tituloProjeto">Clone Google</h3>
+            <div class="containerImagem">
+              <img class="imagemItem" src="./assets/google.png" alt="google" />
+            </div>
+            <div class="containerTexto">
+              <p class="textoItem">
+                Primeiro projeto de clonagem em HTML e CSS. <br />
+                Neste busquei me aproximar ao máximo da página de busca do
+                Google.
+              </p>
+              <div class="containerSeparacao"><p class="separacao">----</p></div>
+              <p class="textoItem ingles">
+                First cloning project in HTML and CSS. <br />
+                For this I tried to get as close as possible to the search page of 
+                Google.
+              </p>
+            </div>
+            <button class="linkProjeto">
+              <a
+                class="textoBotao"
+                href="https://github.com/RafasHub/GoogleHTML-CSS"
+                >Visite o Projeto!</a
+              >
+            </button>
+          </li>
+          <li class="projeto">
+            <h3 class="tituloProjeto">Jogo da Forca</h3>
+            <div class="containerImagem">
+              <img class="imagemItem" src="./assets/forca.png" alt="forca" />
+            </div>
+            <div class="containerTexto">
+              <p class="textoItem">
+                Primeiro projeto em C, feito em 2022 no curso de C da Alura.
+                <br />
+                Este jogo permite armazenar mais palavras em um BDD.
+              </p>
+              <div class="containerSeparacao"><p class="separacao">----</p></div>
+              <p class="textoItem ingles">
+                First project in C, made in 2022 in Alura's C language course.
+                <br />
+                This game allows you to store more words in a database.
+              </p>
+            </div>
+            <button class="linkProjeto">
+              <a
+                class="textoBotao"
+                href="https://github.com/RafasHub/jogoDaForcaC"
+                >Visite o Projeto!</a
+              >
+            </button>
+          </li>
+        </ul>
+      </div>
+    </main>
 
-	<main>
-		<div class = "projetosRafa">
-            <ul class = listaProjetos>
-                <li class = "projeto">
-                    <h3 class = "tituloProjeto">Site portfolio</h3>
-                    <div class="containerImagem">
-                        <img class = "imagemItem" src="./assets/sitePortfolio.png" alt="portfolio">
-                    </div>   
-                    <div class = "containerTexto">
-                        <p class = "textoItem">Primeiro projeto de 2023, feito no final de janeiro. <br>Um site feito em HTML e CSS com a finalidade de ser um curriculum virtual.</p>
-                    </div>  
-                    <button class = "linkProjeto"><a class = "textoBotao" href="./index.html">Visite o Projeto!</a></button>
-                </li>
-                <li class = "projeto">
-                    <h3 class = "tituloProjeto">Clone Netflix</h3>
-                    <div class="containerImagem">
-                        <img class = "imagemItem" src="./assets/netflix.png" alt="netflix"> 
-                    </div>
-                    <div class = "containerTexto">
-                        <p class = "textoItem">Outro clone em HTML e CSS feito por inspiração em sugestões recebidas no final de 2022.<br> Este não tem segredo, é uma imitação da página de login da Netflix.</p>
-                    </div>
-                    <button class = "linkProjeto"><a class = "textoBotao" href="https://github.com/RafasHub/cloneNetflix">Visite o Projeto!</a></button>
-                </li>
-                <li class = "projeto">
-                    <h3 class = "tituloProjeto">Clone Google</h3>
-                    <div class="containerImagem">
-                        <img class = "imagemItem" src="./assets/google.png" alt="google"> 
-                    </div>
-                    <div class = "containerTexto">
-                        <p class = "textoItem">Primeiro projeto de clonagem em HTML e CSS. <br> Neste busquei me aproximar ao máximo da página de busca do Google.</p>
-                    </div>
-                    <button class = "linkProjeto"><a class = "textoBotao" href="https://github.com/RafasHub/GoogleHTML-CSS">Visite o Projeto!</a></button>
-                </li>
-                <li class = "projeto">
-                    <h3 class = "tituloProjeto">Jogo da Forca</h3>
-                    <div class="containerImagem">
-                        <img class = "imagemItem" src="./assets/forca.png" alt="forca">
-                    </div>
-                    <div class = "containerTexto">
-                        <p class = "textoItem">Primeiro projeto em C, feito em 2022 no curso de C da Alura. <br> Este jogo permite armazenar mais palavras em um BDD.</p>
-                    </div>
-                    <button class = "linkProjeto"><a class = "textoBotao" href="https://github.com/RafasHub/jogoDaForcaC">Visite o Projeto!</a></button>
-                </li>
-            </ul>
-        </div>
-	</main>
-
-	<footer>
-		<div class = "containerFooter">
-			<a class = "linkFooter" href="https://www.linkedin.com/in/dev-rafael-dtn/"><img  class = "imgFooter" src="./assets/linkedin.png" alt="linkedin"></a>
-			<p class = "info">
-				Formas de contato: <br>
-				Tel: +55(11)98111-3454 <br>
-				E-mail: rafatoledonavarro@gmail.com <br>
-                gitHub: <a class = "linkGithub" href="https://github.com/RafasHub">RafasHub</a>
-			</p>
-			<a class = "linkFooter" href="https://www.instagram.com/rafadtn.programador/"><img class = "imgFooter" src="./assets/instagram.png" alt="instagram"></a>
-		</div>
-		</footer>
-</body>
+    <footer>
+      <div class="containerFooter">
+        <a class="linkFooter" href="https://www.linkedin.com/in/dev-rafael-dtn/"
+          ><img class="imgFooter" src="./assets/linkedin.png" alt="linkedin"
+        /></a>
+        <p class="info">
+          Formas de contato: <br />
+          Tel: +55(11)98111-3454 <br />
+          E-mail: rafatoledonavarro@gmail.com <br />
+          gitHub:
+          <a class="linkGithub" href="https://github.com/RafasHub">RafasHub</a>
+        </p>
+        <a
+          class="linkFooter"
+          href="https://www.instagram.com/rafadtn.programador/"
+          ><img class="imgFooter" src="./assets/instagram.png" alt="instagram"
+        /></a>
+      </div>
+    </footer>
+  </body>
 </html>
